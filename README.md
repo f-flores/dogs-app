@@ -1,7 +1,8 @@
 # dogs-app
 
 ## Presentation Slides
-[Link to google slides](https://docs.google.com/presentation/d/1JD8qXCBsQB4RrjmVpcRj9VVzl0lWYzydTSoZLKXKIxM/edit?usp=sharing){target="_blank"}
+<a href="https://docs.google.com/presentation/d/1JD8qXCBsQB4RrjmVpcRj9VVzl0lWYzydTSoZLKXKIxM/edit?usp=sharing" target="_blank">Link to google slides</a>
+
 
 ## Description
 This app is a basic fullstack app that uses MySQL and handlebars to show
