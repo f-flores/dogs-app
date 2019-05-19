@@ -1,0 +1,14 @@
+<li>
+  <div class="card">
+    <img src={{picurl}} class="card-img-top" alt={{name}} />
+    <div class="card-body">
+      <h5 class="card-title">{{name}}</h5>
+      <button class="change-sleep" data-id="{{id}}" data-newsleep="{{sleep}}">
+        {{#if sleep}}SLEEP TIME!{{else}}WAKE UP!{{/if}}
+      </button>
+      <button class="delete-cat" data-id="{{this.id}}">
+        DELETE!
+      </button>
+    </div>
+  </div>
+</li>

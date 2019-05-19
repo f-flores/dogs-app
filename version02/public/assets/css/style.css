@@ -1,0 +1,35 @@
+body {
+  background-color: #C6DEC6;
+}
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-box {
+  background-color: #758173;
+  text-align: center;
+  width: 100%;
+  border: 5px solid #020402;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px;
+}
+
+.subheader-box {
+  background-color: #A9C5A0;
+  text-align: center;
+  width: 100%;
+  border: 5px solid #020402;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.form-style {
+  width: 70%;
+  border-radius: 10px;
+  background-color: #C5EFCB;
+  padding: 20px;
+}

@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="justify-content-center">
+    <div class="row">
+      <div class="xs-12 sm-8 header-box">
+        <h1>Dogs!</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="xs-12 sm-8 subheader-box">
+        <h2>Dogs that are not sleepy</h2>
+      </div>
+    </div>
+
+    <ul>
+      <div class="row">
+        {{#each dogs}}
+        <div class="xs-12 sm-5 mr-3">
+          {{#unless sleepy}}
+          {{> dogs/dog-block sleep=true}}
+          {{/unless}}
+        </div>
+        {{/each}}
+      </div>
+    </ul>
+
+
+    <div class="row">
+      <div class="xs-12 sm-8 subheader-box">
+        <h2>Dogs that are sleepy</h2>
+      </div>
+    </div>
+
+    <ul>
+      <div class="row">
+        {{#each dogs}}
+        <div class="xs-12 sm-5 mr-3">
+          {{#if sleepy}}
+          {{> dogs/dog-block sleep=false}}
+          {{/if}}
+        </div>
+        {{/each}}
+      </div>
+    </ul>
+
+    <div class="row">
+      <h2>Add a dog</h2>
+    </div>
+
+    <div class="row">
+      <form class="create-form form-style">
+
+        <div class="form-group">
+          <label for="dog-name">Dog Name:</label>
+          <input type="text" class="form-control" id="dog-name" name="name">
+        </div>
+
+        <div class="form-group">
+          <label for="dog-pic">Dog Picture Url:</label>
+          <input type="text" class="form-control" id="doc-pic" name="picurl">
+        </div>
+
+        <div class="form-group">
+          <label for="sleepy">Sleepy?</label><br>
+          <input type="radio" name="sleepy" value="1" checked> Sleepy!<br>
+          <input type="radio" name="sleepy" value="0"> Awake
+        </div>
+
+        <button type="submit" class="btn btn-success btn-lg">Add Dog</button>
+      </form>
+    </div>
+  </div>
+</div>
