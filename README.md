@@ -17,6 +17,14 @@ different stages of implementation.
 * `cd dogs-app/version1`
 * `npm install`
 * Run the contents of `db/schema.sql` and `db/seeds.sql` in MySQL Workbench. This step creates the database and inserts seed data.
+* Create a `.env` file with the following contents:
+
+```
+# environment variables
+
+DB_USER="your_mysql_username"
+DB_PASSWORD="your_mysql_password"
+```
 
 ## Usage
 ### Version 01
