@@ -60,14 +60,21 @@ say, the `ajax` PUT and DELETE calls are made within the "update-state" and the
 Some more styling work is done in `public/assets/css/style.css`.
 
 * Wake up Dog and Sleepy Dog
+
 ![alt text](https://media.giphy.com/media/kxm4yslfqRQcsb36zC/giphy.gif "Wake up Dog and Sleepy Dog buttons")
 
+
 * Add Dog Form
+
 ![alt text](https://media.giphy.com/media/Q80hztfw1Q6oYaY3RN/giphy.gif "Add a Dog")
 
+
 * Delete Dog
+
 ![alt text](https://media.giphy.com/media/if5MpihRRVjbgCTpLb/giphy.gif "Delete Dog button")
 
+
 ## Comments
+
 The file `createStructure.sh` does not need to be executed since all the
 folders and files are already created. It is just there for studying purposes.
