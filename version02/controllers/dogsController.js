@@ -16,20 +16,17 @@ router.get("/", function(req, res) {
   });
 });
 
+// adds a dog to the database
+router.post("/api/dogs", function(req, res) {
+  var arrColNames = ["name", "picurl", "sleepy"];
+  var arrColValues = [req.body.name, req.body.picurl, req.body.sleepy];
+  dog.create(arrColNames, arrColValues, function(result) {
+    // Send back the ID of the new quote
+    res.json({ id: result.insertId });
+  });
+});
 
-
-
-// router.post("/api/dogs", function(req, res) {
-//   dog.create([
-//     "name", "sleepy"
-//   ], [
-//     req.body.name, req.body.sleepy
-//   ], function(result) {
-//     // Send back the ID of the new quote
-//     res.json({ id: result.insertId });
-//   });
-// });
-
+// updates a dog in the database
 // router.put("/api/dogs/:id", function(req, res) {
 //   var condition = "id = " + req.params.id;
 
