@@ -1,5 +1,8 @@
 .env
 node_modules
+version01/.env
+version02/.env
+version03/.env
 
 version01/node_modules
 version02/node_modules

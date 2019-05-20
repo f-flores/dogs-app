@@ -7,7 +7,7 @@ ul, li {
   list-style: none;
 }
 
-.header-box {
+.title-box {
   background-color: #758173;
   text-align: center;
   width: 100%;
@@ -17,7 +17,7 @@ ul, li {
   margin: 10px;
 }
 
-.subheader-box {
+.subtitle-box {
   background-color: #A9C5A0;
   text-align: center;
   width: 100%;
