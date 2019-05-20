@@ -59,6 +59,10 @@ say, the `ajax` PUT and DELETE calls are made within the "update-state" and the
 
 Some more styling work is done in `public/assets/css/style.css`.
 
+To run Version 3, the steps are similar to the prior versions. From the project
+root, `cd version03`. Then run `npm install`. Make sure you set your environment
+variables in the `.env` file. Lastly, run `node ./server.js`.
+
 * Wake up Dog and Sleepy Dog
 
 ![alt text](https://media.giphy.com/media/kxm4yslfqRQcsb36zC/giphy.gif "Wake up Dog and Sleepy Dog buttons")
