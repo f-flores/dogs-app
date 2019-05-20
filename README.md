@@ -50,6 +50,23 @@ start the server by running `node ./server.js` and pressing enter.
 * Add Dog Form
 ![alt text](./README_images/dogVersion02_b.png "Dogs App second version form")
 
+### Version 03
+Version 3 of dogs-app completes the CRUD functions in `dogsController.js`.
+`api/dogs/:id` delete route and `api/dogs/:id` update routes are added. On the
+front end, in `dogs.js`, the corresponding ajax calls are defined. That is to
+say, the `ajax` PUT and DELETE calls are made within the "update-state" and the
+"delete-dog" functions.
+
+Some more styling work is done in `public/assets/css/style.css`.
+
+* Wake up Dog and Sleepy Dog
+![alt text](./README_images/dogVersion03.gif "Wake up Dog and Sleepy Dog buttons")
+
+* Add Dog Form
+![alt text](./README_images/dogVersion03_update.gif "Wake up Dog button")
+
+* Delete Dog
+![alt text](./README_images/dogVersion03_delete.gif "Delete Dog button")
 
 ## Comments
 The file `createStructure.sh` does not need to be executed since all the
