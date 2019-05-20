@@ -35,6 +35,21 @@ Now, run the server by typing in `node ./server.js` and pressing enter.
 
 ![alt text](./README_images/dogsVersion01.png "Dogs App first version")
 
+### Version 02
+Version 2 adds the /api/dogs post routes in `dogController.js`. It also improves
+the handlebar layout by leveraging bootstrap classes. Some custome style classes
+are added to `/assets/css/style.css`. The `Add Dog` form is functional (the ajax
+post function is defined in `/assets/js/dog.js`).
+
+From project root, change directory to `version02`. Run `npm install`. Then,
+start the server by running `node ./server.js` and pressing enter.
+
+* Bootstrap Grid Layout
+![alt text](./README_images/dogVersion02_a.png "Dogs App second version grid layout")
+
+* Add Dog Form
+![alt text](./README_images/dogVersion02_b.png "Dogs App second version form")
+
 
 ## Comments
 The file `createStructure.sh` does not need to be executed since all the
